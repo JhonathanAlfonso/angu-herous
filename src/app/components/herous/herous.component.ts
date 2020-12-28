@@ -19,7 +19,7 @@ export class HerousComponent implements OnInit {
   }
 
   showHero(idx:number) {
-    this.router.navigate(['/hero', idx])
+    //this.router.navigate(['/hero', idx])
   }
 
 }
