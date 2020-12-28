@@ -1,5 +1,5 @@
 <h1>Hero searcher: <small>{{ termino }}</small></h1>
 <hr>
 <div class="card-columns">
-  <app-hero-target [heroe]="heroe" [index]="i" *ngFor="let heroe of heroes; let i = index"></app-hero-target>
+  <app-hero-target [heroe]="heroe" [index]="heroe.idx" *ngFor="let heroe of heroes"></app-hero-target>
 </div>

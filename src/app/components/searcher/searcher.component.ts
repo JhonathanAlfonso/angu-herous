@@ -19,6 +19,7 @@ export class SearcherComponent implements OnInit {
     this.activatedRoute.params.subscribe(params => {
       this.termino = params.hero;
       this.heroes = this.heroesService.searchHero(params.hero);
+      //console.log(this.heroes);
     });
   }
 

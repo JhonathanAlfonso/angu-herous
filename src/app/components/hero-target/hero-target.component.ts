@@ -21,7 +21,7 @@ export class HeroTargetComponent implements OnInit {
   }
 
   showHero() {
-    //this.router.navigate(['/hero', this.index])
-    this.heroeSelected.emit(this.index);
+    this.router.navigate(['/hero', this.index])
+    //this.heroeSelected.emit(this.index);
   }
 }
